@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PlayNest brand dark-navy. Used as the launch window background
+         and the post-engine native window background so the launcher
+         tap no longer flashes white between the system splash and the
+         Flutter engine drawing its first frame. -->
+    <color name="launch_background">#0F1424</color>
+</resources>

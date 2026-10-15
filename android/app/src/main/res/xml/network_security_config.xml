@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Network security configuration for PlayNest.
+
+    The OTP subscription flow talks to
+    https://ruetandroiddevelopers.com/PlayNest/ over HTTPS, so the
+    default base-config (which trusts only system CAs and disallows
+    cleartext) is correct. This file is declared explicitly so we
+    never accidentally inherit a tighter default from a future
+    Android upgrade, and so any future cleartext-only dev/staging
+    hosts can be allow-listed in one place without editing the
+    manifest.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

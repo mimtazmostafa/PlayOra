@@ -1,0 +1,46 @@
+{
+  "@@locale": "en",
+  "appTitle": "PlayNest",
+  "@appTitle": {
+    "description": "Application title shown in task switchers."
+  },
+  "settingsTitle": "Settings",
+  "settingsAppearanceSection": "Appearance",
+  "settingsAppearanceThemeModeSystem": "Follow system",
+  "settingsAppearanceThemeModeLight": "Light",
+  "settingsAppearanceThemeModeDark": "Dark",
+  "settingsLanguageSection": "Language",
+  "settingsLanguageEnglish": "English",
+  "settingsLanguageBangla": "Bangla",
+  "settingsNotificationsSection": "Notifications",
+  "settingsNotificationsDailyChallenge": "Daily challenge reminder",
+  "settingsNotificationsDailyChallengeSubtitle": "Get a nudge when today's challenge is live.",
+  "settingsNotificationsStreak": "Streak reminder",
+  "settingsNotificationsStreakSubtitle": "Don't break your streak — play each day.",
+  "settingsDataStorageSection": "Data & Storage",
+  "settingsDataStorageDownloads": "Downloads",
+  "settingsDataStorageDownloadsValue": "0 MB used",
+  "settingsAboutSection": "About",
+  "settingsAboutVersion": "Version",
+  "settingsAboutPrivacyPolicy": "Privacy Policy",
+  "settingsAboutTerms": "Terms of Service",
+  "settingsSubscriptionSection": "Subscription",
+  "settingsSubscriptionManage": "Manage Subscription",
+  "commonBack": "Back",
+  "subscriptionTitle": "Subscription",
+  "subscriptionPlaceholderHeadline": "Coming soon",
+  "subscriptionPlaceholderBody": "Subscription management arrives in a future release.",
+  "comingSoonTitle": "Coming soon",
+  "@comingSoonTitle": {
+    "description": "Headline for games marked as coming soon on the details page."
+  },
+  "comingSoonMessage": "This game arrives in a future release.",
+  "@comingSoonMessage": {
+    "description": "Sub-headline body shown beneath the coming-soon title."
+  },
+  "aboutPrivacyPolicyTitle": "Privacy Policy",
+  "aboutTermsTitle": "Terms of Service",
+  "aboutPlaceholderBody": "This page is a placeholder. The final copy will be added before public launch.",
+  "languageEnglishName": "English",
+  "languageBanglaName": "Bangla"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Android 12+ (API 31+) system splash overrides.
+
+  Without these overrides the OS shows a WHITE rounded-square frame
+  around the launcher icon during cold start (the system splash runs
+  before the Flutter engine is ready and paints its own background
+  + icon). Setting windowSplashScreenBackground to the brand dark-navy
+  matches the Flutter splash so there is no jarring white frame.
+-->
+<resources>
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+        <!-- OS system splash background — replaces the default white. -->
+        <item name="android:windowSplashScreenBackground">@color/launch_background</item>
+        <!-- Re-use the existing launcher icon for the system splash. -->
+        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+    </style>
+</resources>
